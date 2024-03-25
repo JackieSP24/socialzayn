@@ -1,0 +1,173 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  padding:0.1px;
+  padding-left:30px;  
+  font-weight: bold;
+}
+.info{
+  margin-left:20px;
+  border: 1px solid black;
+}
+.post4{
+  height:200px;
+  width:200px;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  text-align: justify;
+  display: block;
+  margin: 0 auto;
+}
+.post:hover{
+  filter: brightness(70%);
+  transition: all 0.2s ease-in-out;
+}
+.post2:hover{
+  filter: brightness(70%);
+  transition: all 0.2s ease-in-out;
+}
+.post5{
+  justify-content: space-evenly;
+  display:flex;
+ 
+}
+
+.story{
+  justify-content: center;
+}
+.container {
+  max-width: 1300px;
+  margin: 20px auto;
+  background-color: black;
+  border: 1px solid #535050;
+  padding: 20px;
+}
+.stories {
+  display:flex;
+  flex-direction:row;
+}
+
+
+.post2{
+  margin-left:30px;
+  margin-right:15px;
+  border: 1px solid #e1e1e1;
+  padding: 5px;
+}
+h4{
+  font-size: 13px;
+}
+h2{
+  font-size:17px;
+  letter-spacing:1/px;
+}
+.row{
+  text-align: left;
+}
+.post {
+  border: 2.4px solid #e1e1e1;
+  padding: 10px;
+  height:200px;
+  width:200px;
+  border-radius: 180px;
+}
+.post2{
+  border-radius: 180px;
+  height:100px;
+  width:100px;
+}
+
+.post img {
+    max-width: 100%;
+}
+
+.posts{
+  text-align: left;
+  top: 300px;
+}
+.two{
+   text-align: justify;  
+  text-align-last: right;
+}
+.three{
+  text-align: right;
+}
+
+.contain1 {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  margin: 15px 10px;
+  border: solid 3px black;
+  color: white;
+  width: 600px;
+  position: absolute;
+  left: 600px;
+  bottom: 350px;
+}
+.foll {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  margin: 15px 10px;
+  border: solid 3px black;
+  color: white;
+  width: 600px;
+  position: absolute;
+  left: 600px;
+  bottom: 380px;
+}
+.shop{
+  border: 2px solid #525151;
+  background-color: #525151;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  position: relative;
+  left: 550px;
+}
+.buy{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -13px;
+}
+.buy:hover{
+  color: red;
+}
+figcaption{
+  text-align: center;
+  font-size:16px;
+  font-family:fantasy;
+}
+.socials{
+  border: 2px solid darkred;
+  height: 50px;
+  width: 1340px;
+  display:flex;
+  justify-content:space-evenly;
+  color:white;
+  background-color: darkred;
+  position: absolute;
+  bottom: -430px;
+  left: 10px;
+}
+.iconic{
+  font-size: 15px;
+  color:white;
+}
